@@ -1,0 +1,28 @@
+
+element.style {
+    word-wrap: break-word;
+}
+.show-on-focus {
+    clip: rect(1px,1px,1px,1px);
+    margin: 0;
+}
+
+.show-on-focus, .sr-only {
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+.width-full {
+    width: 87%!important;
+}
+.required
+{
+  color:red;
+}
+.btn-large {
+    padding: .75em 1.5em;
+    font-size: inherit;
+    line-height: 1.5;
+    border-radius: .5em;
+}
